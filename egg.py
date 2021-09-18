@@ -74,6 +74,6 @@ async def game():
         old_time = time.time()
 
     await play.timer(seconds=1/frames)
-
+ 
 
 play.start_program()
